@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "axios": "^0.27.2",
     "core-js": "^3.8.3",
     "env": "^0.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.13",
     "vuex": "^4.0.0"
@@ -18,7 +21,8 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "nodemon": "^2.0.20"
   },
   "browserslist": [
     "> 1%",
